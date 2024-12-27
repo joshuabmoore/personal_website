@@ -33,7 +33,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOWFISH_TUTORIAL }}'
+          firebaseServiceAccount: '${{ ecrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_WEBSITE_CB6B4 }}'
           expires: 30d
           channelId: preview-${{ github.event.number }}
           projectId: personal-website-cb6b4
