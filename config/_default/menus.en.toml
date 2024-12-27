@@ -15,6 +15,31 @@
   pageRef = "/"
   weight = 10
 
+[[main]]
+  name = "C.V."
+  pageRef = "cv"
+  weight = 20
+
+[[main]]
+  name = "Publications"
+  pageRef = "pubs"
+  weight = 30
+
+[[main]]
+  name = "My Research"
+  pageRef = "research"
+  weight = 40
+
+[[main]]
+  name = "Presentations"
+  pageRef = "presos"
+  weight = 50
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 60
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20
